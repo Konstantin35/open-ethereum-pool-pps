@@ -24,7 +24,7 @@ export default Ember.Route.extend({
                 var seconds = intervals[i] * 86400;
                 var hashes = hashRate * Math.pow(10, 6) * seconds;
                 result += '<dt>' + intervals[i] + 'd</dt>';
-                result += '<dd>' + (hashes * ppsRate).toFixed(8)  +  ' ETH</dd>';
+                result += '<dd>' + (hashes * ppsRate).toFixed(8)  +  ' CLO</dd>';
             }
 
             result += '</dl>';
